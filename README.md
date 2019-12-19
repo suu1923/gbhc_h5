@@ -19,7 +19,7 @@ vue 公众号和H5前端页面
 - 组件首字母大写
 - 尽可能用全等做比较
 
-#### 安装教程
+#### 安装教程  
 
 Project setup
 ```
@@ -48,9 +48,9 @@ npm run lint
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. xxxxx
+2. xxxxx
+3. xxxxx
 
 #### 参与贡献
 
