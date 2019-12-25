@@ -26,7 +26,7 @@
       </div>
       <div class="underline">
         <div class="text">
-          <div class="line1">{{ item.store_name }}</div>
+          <div class="line2-self">{{ item.store_name }}</div>
           <div class="money font-color-red">
             ￥<span class="num">{{ item.price }}</span>
           </div>

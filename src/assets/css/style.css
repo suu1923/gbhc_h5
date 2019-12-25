@@ -14,13 +14,14 @@ body{font-size:0.28rem;background-color:#f5f5f5;transition: background-color .3s
 #footer .item{flex:1;-webkit-flex:1;-o-flex:1;-ms-flex:1;text-align:center;font-size:0.2rem;color:#282828;}
 #footer .item.on{color:#fc4141;}
 #footer .item .iconfont{font-size:0.45rem;height: 0.55rem;line-height: 0.55rem;}
-.goodList .item{position:relative;padding-left:0.3rem;background-color:#fff;}
-.goodList .item .pictrue{width:1.8rem;height:1.8rem;position:relative;}
+.goodList{column-count: 2;column-gap: 0;background: rgb(245,245,245);padding:0.1rem 0.1rem 0 0}
+.goodList .item{position:relative;background-color:#fff;margin-bottom:0.1rem;margin-left:0.1rem;break-inside: avoid;border-radius: 5px;}
+.goodList .item .pictrue{width:100%;position:relative;}
 .goodList .item .pictrue .image{width:100%;height:100%;border-radius:0.06rem;}
 .goodList .item .pictrue .numPic{position:absolute;left:0.07rem;top:0.07rem;width:0.5rem;height:0.5rem;border-radius:50%;}
-.goodList .item .underline{padding:0.3rem 0.3rem 0.3rem 0;border-bottom:1px solid #f5f5f5;}
+.goodList .item .underline{padding:0.3rem 0.3rem 0.3rem 0.3rem;border-bottom:1px solid #f5f5f5;width: calc(100% - 0.3rem);}
 .goodList .item:nth-last-child(1) .underline{border-bottom:0;}
-.goodList .item .text{font-size:0.3rem;color:#222;width:4.89rem;text-align: left;}
+.goodList .item .text{font-size:0.2rem;color:#222;width:100%;text-align: left;}
 .goodList .item .text .money{font-size:0.26rem;font-weight:bold;margin-top:0.5rem;}
 .goodList .item .text .money .num{font-size:0.34rem;}
 .goodList .item .text .vip-money{font-size:0.24rem;color:#282828;font-weight:bold;margin-top:0.1rem;}
