@@ -75,6 +75,7 @@
 <script type="text/babel">
 import { CitySelect } from "vue-ydui/dist/lib.rem/cityselect";
 import District from "ydui-district/dist/jd_province_city_area_id";
+import { district } from "../../../assets/js/city";
 import { getAddress, postAddress } from "@api/user";
 import attrs, { required, chs_phone } from "@utils/validate";
 import { validatorDefaultCatch } from "@utils/dialog";
@@ -89,7 +90,7 @@ export default {
     return {
       show2: false,
       model2: "",
-      district: District,
+      district: district,
       id: 0,
       userAddress: { is_default: 0 },
       address: {},
