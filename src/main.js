@@ -52,10 +52,10 @@ const _isWechat = isWeixin();
 // });
 
 if (_isWechat) {
-  // const module = () => import("@libs/wechat");
-  // module().then(Module => {
-  //   Module.default().then(() => Module.oAuth());
-  // });
+  const module = () => import("@libs/wechat");
+  module().then(Module => {
+    Module.default().then(() => Module.oAuth());
+  });
 }
 
 const $vm = new Vue({
