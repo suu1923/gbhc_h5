@@ -22,7 +22,7 @@
       </div>
       <div class="introduce">{{ storeInfo.store_name }}</div>
       <div class="label acea-row row-between-wrapper">
-        <div>原价:￥{{ storeInfo.ot_price }}</div>
+        <div>原价:{{ storeInfo.ot_price }}</div>
         <div>库存:{{ storeInfo.stock }}{{ storeInfo.unit_name }}</div>
         <div>销量:{{ storeInfo.fsales }}{{ storeInfo.unit_name }}</div>
       </div>
@@ -105,7 +105,7 @@
                     <img :src="val.image" />
                   </div>
                   <div class="name line1">{{ val.store_name }}}</div>
-                  <div class="money font-color-red">¥{{ val.price }}</div>
+                  <div class="money font-color-red">C${{ val.price }}</div>
                 </div>
               </div>
             </swiper-slide>
