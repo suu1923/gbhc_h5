@@ -7,7 +7,7 @@
       <div class="text">
         <div class="line1" v-text="storeCombination.title"></div>
         <div class="money">
-          ￥
+          C$
           <span class="num" v-text="storeCombination.price"></span>
           <span
             class="team cart-color"
@@ -131,7 +131,7 @@
             <div class="team" v-text="item.people + '人团'"></div>
           </div>
           <div class="name line1" v-text="item.title"></div>
-          <div class="money font-color-red" v-text="'￥' + item.price"></div>
+          <div class="money font-color-red" v-text="'C$' + item.price"></div>
         </div>
       </div>
     </div>

@@ -15,7 +15,7 @@
             :datatime="item.datatime"
           ></count-down>
           <div class="money font-color-red">
-            已砍至<span class="symbol">￥</span
+            已砍至<span class="symbol">C$</span
             ><span class="num">{{ item.residue_price }}</span>
           </div>
         </div>

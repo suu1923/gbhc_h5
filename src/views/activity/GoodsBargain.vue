@@ -15,7 +15,7 @@
             >{{ item.people }}人正在参与
           </div>
           <div class="money font-color-red">
-            可砍至: ￥<span class="price" v-text="item.min_price"></span>
+            可砍至: C$<span class="price" v-text="item.min_price"></span>
           </div>
         </div>
         <div class="cutBnt bg-color-red" @click="goDetail(item.id)">

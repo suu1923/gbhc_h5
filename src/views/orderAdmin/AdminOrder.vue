@@ -50,15 +50,15 @@
           </div>
         </div>
         <div class="money">
-          <div class="x-money">￥{{ item.cart_info.productInfo.price }}</div>
+          <div class="x-money">C${{ item.cart_info.productInfo.price }}</div>
           <div class="num">x{{ item.cart_info.cart_num }}</div>
-          <div class="y-money">￥{{ item.cart_info.productInfo.ot_price }}</div>
+          <div class="y-money">C${{ item.cart_info.productInfo.ot_price }}</div>
         </div>
       </div>
     </div>
     <div class="public-total">
       共{{ orderInfo.total_num }}件商品，应支付
-      <span class="money">￥{{ orderInfo.pay_price }}</span> ( 邮费 ¥{{
+      <span class="money">C${{ orderInfo.pay_price }}</span> ( 邮费 ¥{{
         orderInfo.pay_postage
       }}
       )
@@ -97,19 +97,19 @@
     <div class="wrapper">
       <div class="item acea-row row-between">
         <div>支付金额：</div>
-        <div class="conter">￥{{ orderInfo.total_price }}</div>
+        <div class="conter">C${{ orderInfo.total_price }}</div>
       </div>
       <div class="item acea-row row-between">
         <div>优惠券抵扣：</div>
-        <div class="conter">-￥{{ orderInfo.coupon_price }}</div>
+        <div class="conter">-C${{ orderInfo.coupon_price }}</div>
       </div>
       <div class="item acea-row row-between">
         <div>运费：</div>
-        <div class="conter">￥{{ orderInfo.freight_price }}</div>
+        <div class="conter">C${{ orderInfo.freight_price }}</div>
       </div>
       <div class="actualPay acea-row row-right">
         实付款：<span class="money font-color-red"
-          >￥{{ orderInfo.pay_price }}</span
+          >C${{ orderInfo.pay_price }}</span
         >
       </div>
     </div>

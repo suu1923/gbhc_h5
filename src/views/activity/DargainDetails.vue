@@ -37,7 +37,7 @@
         <div class="text acea-row row-column-around">
           <div class="line2" v-text="bargain.title"></div>
           <div class="money font-color-red">
-            已砍至: ￥
+            已砍至: C$
             <span class="num" v-text="price"></span>
           </div>
           <div class="acea-row row-middle">

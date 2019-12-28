@@ -7,8 +7,8 @@
     <div class="wrapper">
       <div class="share acea-row row-between row-bottom">
         <div class="money font-color-red">
-          ￥<span class="num" v-text="storeInfo.price"></span
-          ><span class="y-money" v-text="'￥' + storeInfo.product_price"></span>
+          C$<span class="num" v-text="storeInfo.price"></span
+          ><span class="y-money" v-text="'C$' + storeInfo.product_price"></span>
         </div>
         <div class="iconfont icon-fenxiang" @click="setPosterImageStatus"></div>
       </div>

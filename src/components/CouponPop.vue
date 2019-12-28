@@ -12,7 +12,7 @@
           @click="getCouponUser(index, item.id)"
         >
           <div class="money">
-            ￥<span class="num">{{ item.coupon_price }}</span>
+            C$<span class="num">{{ item.coupon_price }}</span>
           </div>
           <div class="text">
             <div class="condition line1">

@@ -19,8 +19,8 @@
           </div>
           <div class="bottom acea-row row-between-wrapper">
             <div class="money">
-              ￥<span class="num" v-text="item.price"></span
-              ><span class="y-money" v-text="'￥' + item.product_price"></span>
+              C$<span class="num" v-text="item.price"></span
+              ><span class="y-money" v-text="'C$' + item.product_price"></span>
             </div>
             <div class="groupBnt bg-color-red">
               去拼团<span class="iconfont icon-jiantou"></span>
