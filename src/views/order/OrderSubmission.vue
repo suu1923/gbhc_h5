@@ -214,7 +214,7 @@
         v-if="orderPrice.total_price !== undefined"
       >
         <div>商品总价：</div>
-        <div class="money">C${{ orderPrice.total_price }}</div>
+        <div class="money">￥{{ orderPrice.total_price }}</div>
       </div>
       <div
         class="item acea-row row-between-wrapper"
@@ -242,7 +242,7 @@
     <div class="footer acea-row row-between-wrapper">
       <div>
         合计:
-        <span class="font-color-red">C${{ orderPrice.pay_price }}</span>
+        <span class="font-color-red">￥{{ orderPrice.pay_price }}</span>
       </div>
       <div class="settlement" @click="createOrder">立即结算</div>
     </div>

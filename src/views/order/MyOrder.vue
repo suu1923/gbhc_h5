@@ -5,7 +5,7 @@
         <div class="text">
           <div class="name">订单信息</div>
           <div>
-            累计订单：{{ orderData.order_count || 0 }} 总消费：C${{
+            累计订单：{{ orderData.order_count || 0 }} 总消费：￥{{
               orderData.sum_price || 0
             }}
           </div>

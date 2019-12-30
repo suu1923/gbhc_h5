@@ -29,7 +29,7 @@
       </div>
       <div class="item acea-row row-between-wrapper">
         <div>退款金额</div>
-        <div class="num">C${{ orderInfo.pay_price }}</div>
+        <div class="num">￥{{ orderInfo.pay_price }}</div>
       </div>
       <div class="item acea-row row-between-wrapper">
         <div>退款原因</div>

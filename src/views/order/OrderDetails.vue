@@ -271,7 +271,7 @@
     <div class="wrapper">
       <div class="item acea-row row-between">
         <div>支付金额：</div>
-        <div class="conter">C${{ orderInfo.total_price }}</div>
+        <div class="conter">￥{{ orderInfo.total_price }}</div>
       </div>
       <div class="item acea-row row-between" v-if="orderInfo.coupon_price > 0">
         <div>优惠券抵扣：</div>
@@ -287,7 +287,7 @@
       </div>
       <div class="actualPay acea-row row-right">
         实付款：<span class="money font-color-red"
-          >C${{ orderInfo.pay_price }}</span
+          >￥{{ orderInfo.pay_price }}</span
         >
       </div>
     </div>
