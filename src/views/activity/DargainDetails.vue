@@ -37,11 +37,11 @@
         <div class="text acea-row row-column-around">
           <div class="line2" v-text="bargain.title"></div>
           <div class="money font-color-red">
-            已砍至: ￥
+            已砍至: C$
             <span class="num" v-text="price"></span>
           </div>
           <div class="acea-row row-middle">
-            <div class="successNum" v-text="'原价' + bargain.price"></div>
+            <div class="successNum" v-text="'￥' + bargain.price"></div>
             <div
               class="successNum"
               v-text="'已有' + bargainSumCount + '人砍价成功'"

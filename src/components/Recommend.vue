@@ -17,7 +17,7 @@
         </div>
         <div class="name line1">{{ item.store_name }}</div>
         <div class="money font-color-red">
-          ￥<span class="num">{{ item.price }}</span>
+          C$<span class="num">{{ item.price }}</span>
         </div>
       </router-link>
     </div>

@@ -8,7 +8,7 @@
           :key="index"
         >
           <div class="money font-color-red">
-            ￥<span class="num">{{ item.coupon_price }}</span>
+            C$<span class="num">{{ item.coupon_price }}</span>
           </div>
           <div class="text">
             <div class="name">

@@ -14,7 +14,7 @@
             @click="click(coupon)"
           >
             <div class="money">
-              ￥
+              C$
               <span class="num">{{ coupon.coupon_price }}</span>
             </div>
             <div class="text">

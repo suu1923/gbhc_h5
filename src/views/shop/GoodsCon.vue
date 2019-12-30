@@ -7,11 +7,11 @@
     <div class="wrapper">
       <div class="share acea-row row-between row-bottom">
         <div class="money font-color-red">
-          ￥<span class="num">{{ storeInfo.price }}</span
+          C$<span class="num">{{ storeInfo.price }}</span
           ><span
             class="vip-money"
             v-if="storeInfo.vip_price && storeInfo.vip_price > 0"
-            >￥{{ storeInfo.vip_price }}</span
+            >C${{ storeInfo.vip_price }}</span
           ><img
             src="@assets/images/vip.png"
             class="image"
@@ -105,7 +105,7 @@
                     <img :src="val.image" />
                   </div>
                   <div class="name line1">{{ val.store_name }}}</div>
-                  <div class="money font-color-red">¥{{ val.price }}</div>
+                  <div class="money font-color-red">C${{ val.price }}</div>
                 </div>
               </div>
             </swiper-slide>

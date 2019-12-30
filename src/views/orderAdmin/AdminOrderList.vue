@@ -73,17 +73,17 @@
               </div>
             </div>
             <div class="money">
-              <div class="x-money">￥{{ val.cart_info.productInfo.price }}</div>
+              <div class="x-money">C${{ val.cart_info.productInfo.price }}</div>
               <div class="num">x{{ val.cart_info.cart_num }}</div>
               <div class="y-money">
-                ￥{{ val.cart_info.productInfo.ot_price }}
+                C${{ val.cart_info.productInfo.ot_price }}
               </div>
             </div>
           </div>
         </div>
         <div class="public-total">
           共{{ item.total_num }}件商品，应支付
-          <span class="money">￥{{ item.pay_price }}</span> ( 邮费 ¥{{
+          <span class="money">C${{ item.pay_price }}</span> ( 邮费 ¥{{
             item.total_postage
           }}
           )

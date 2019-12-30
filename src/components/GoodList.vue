@@ -28,11 +28,11 @@
         <div class="text">
           <div class="line2-self">{{ item.store_name }}</div>
           <div class="money font-color-red">
-            ￥<span class="num">{{ item.price }}</span>
+            C$<span class="num">{{ item.price }}</span>
           </div>
           <div class="vip-money acea-row row-middle">
             <div class="vip" v-if="item.vip_price && item.vip_price > 0">
-              ￥{{ item.vip_price || 0
+              C${{ item.vip_price || 0
               }}<img src="@assets/images/vip.png" class="image" />
             </div>
             <span class="num">已售{{ item.sales }}{{ item.unit_name }}</span>
