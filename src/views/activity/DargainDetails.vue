@@ -41,7 +41,7 @@
             <span class="num" v-text="price"></span>
           </div>
           <div class="acea-row row-middle">
-            <div class="successNum" v-text="'原价' + bargain.price"></div>
+            <div class="successNum" v-text="'￥' + bargain.price"></div>
             <div
               class="successNum"
               v-text="'已有' + bargainSumCount + '人砍价成功'"

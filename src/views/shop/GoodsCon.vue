@@ -22,7 +22,7 @@
       </div>
       <div class="introduce">{{ storeInfo.store_name }}</div>
       <div class="label acea-row row-between-wrapper">
-        <div>原价:{{ storeInfo.ot_price }}</div>
+        <div>￥:{{ storeInfo.ot_price }}</div>
         <div>库存:{{ storeInfo.stock }}{{ storeInfo.unit_name }}</div>
         <div>销量:{{ storeInfo.fsales }}{{ storeInfo.unit_name }}</div>
       </div>

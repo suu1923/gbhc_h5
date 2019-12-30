@@ -141,7 +141,7 @@
         </div>
         <div class="totalPrice">
           共{{ order.cartInfo.length || 0 }}件商品，总金额
-          <span class="money font-color-red">C${{ order.pay_price }}</span>
+          <span class="money font-color-red">￥{{ order.pay_price }}</span>
         </div>
         <div class="bottom acea-row row-right row-middle">
           <template v-if="order._status._type === 0">
