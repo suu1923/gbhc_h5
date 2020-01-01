@@ -56,9 +56,9 @@
       <div class="addressBnt on bg-color-red" v-else @click="addAddress">
         <span class="iconfont icon-tianjiadizhi"></span>添加新地址
       </div>
-      <div class="addressBnt wxbnt" v-if="isWechat" @click="getAddress">
-        <span class="iconfont icon-weixin2"></span>导入微信地址
-      </div>
+      <!--      <div class="addressBnt wxbnt" v-if="isWechat" @click="getAddress">-->
+      <!--        <span class="iconfont icon-weixin2"></span>导入微信地址-->
+      <!--      </div>-->
     </div>
   </div>
 </template>

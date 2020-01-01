@@ -67,9 +67,9 @@
     </div>
     <div></div>
     <div class="keepBnt bg-color-red" @click="submit">立即保存</div>
-    <div class="wechatAddress" v-if="isWechat && !id" @click="getAddress">
-      导入微信地址
-    </div>
+    <!--    <div class="wechatAddress" v-if="isWechat && !id" @click="getAddress">-->
+    <!--      导入微信地址-->
+    <!--    </div>-->
   </div>
 </template>
 <script type="text/babel">
@@ -189,10 +189,12 @@ export default {
       this.userAddress.is_default = !this.userAddress.is_default;
     },
     result2(ret) {
-      this.model2 = ret.itemName1 + " " + ret.itemName2 + " " + ret.itemName3;
+      console.log(ret);
+      // this.model2 = ret.itemName1 + " " + ret.itemName2 + " " + ret.itemName3;
+      this.model2 = ret.itemName1;
       this.address.province = ret.itemName1;
-      this.address.city = ret.itemName2;
-      this.address.district = ret.itemName3;
+      // this.address.city = ret.itemName2;
+      // this.address.district = ret.itemName3;
     }
   }
 };
