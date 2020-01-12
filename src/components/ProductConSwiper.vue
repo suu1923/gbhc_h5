@@ -11,7 +11,13 @@
         :key="item"
         ref="goodSwiper"
       >
-        <img :src="item" class="slide-image" />
+        <video
+          :src="item"
+          v-if="checkSuffix(item)"
+          class="slide-image"
+          controls
+        ></video>
+        <img :src="item" v-else class="slide-image" />
       </swiperSlide>
     </swiper>
     <div class="pages">{{ currents || 1 }}/{{ imgUrls.length || 1 }}</div>
@@ -54,6 +60,12 @@ export default {
     };
   },
   mounted: function() {},
-  methods: {}
+  methods: {
+    checkSuffix: function(url) {
+      var result = false;
+      if (url.substr(url.length - 3) == "mp4") result = true;
+      return result;
+    }
+  }
 };
 </script>

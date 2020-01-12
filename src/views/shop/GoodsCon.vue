@@ -3,7 +3,7 @@
     :class="[posterImageStatus ? 'noscroll product-con' : 'product-con']"
     ref="box"
   >
-    <product-con-swiper :img-urls="storeInfo.slider_image"></product-con-swiper>
+    <product-con-swiper :imgUrls="storeInfo.slider_image"></product-con-swiper>
     <div class="wrapper">
       <div class="share acea-row row-between row-bottom">
         <div class="money font-color-red">
