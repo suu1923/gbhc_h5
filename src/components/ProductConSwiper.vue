@@ -43,10 +43,10 @@ export default {
     return {
       currents: 1,
       ProductConSwiper: {
-        autoplay: {
-          disableOnInteraction: false,
-          delay: 2000
-        },
+        // autoplay: {
+        //   disableOnInteraction: false,
+        //   delay: 2000
+        // },
         loop: true,
         speed: 1000,
         observer: true,

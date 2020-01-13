@@ -31,7 +31,9 @@
               @click="tapAttr(indexw, indexn)"
               :key="indexn"
             >
-              {{ itemn.attr }}
+              <img :src="attr.productSelect.image" class="s-image" />{{
+                itemn.attr
+              }}
             </div>
           </div>
         </div>

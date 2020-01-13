@@ -122,7 +122,8 @@ body{font-size:0.28rem;background-color:#f5f5f5;transition: background-color .3s
 .product-window .productWinList .item .title{font-size:0.3rem;color:#999;padding:0 0.3rem;}
 .product-window .productWinList .item .listn{padding:0 0.3rem 0 0.16rem;}
 .product-window .productWinList .item .listn .itemn{border:1px solid #bbb;font-size:0.26rem;color:#282828;
-    padding:0.07rem 0.33rem;border-radius:0.06rem;margin:0.14rem 0 0 0.14rem;}
+    padding:0.07rem 0.33rem;border-radius:0.06rem;margin:0.14rem 0 0 0.14rem;display: flex; align-items: center;}
+    
 .product-window .productWinList .item .listn .itemn.on{color:#fff;background-color:#ff3700;border-color:#ff3700;}
 .product-window .cart{margin-top:0.36rem;padding:0 0.3rem;}
 .product-window .cart .title{font-size:0.3rem;color:#999;}
@@ -134,6 +135,7 @@ body{font-size:0.28rem;background-color:#f5f5f5;transition: background-color .3s
 .product-window .cart .carnum .plus{border-left:0;border-radius:0 0.06rem 0.06rem 0;line-height:0.46rem;}
 .product-window .cart .carnum .plus.on{border-color:#e3e3e3;color:#dedede;}
 .product-window .cart .carnum .num{color:#282828;font-size:0.28rem;}
+.product-window .s-image{width: 0.3rem;height: 0.3rem;margin-right: 0.1rem;}
 /*产品详情的分享红包*/
 .sharing-packets{position:fixed;left:0.3rem;bottom:1.5rem;z-index:5;transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-o-transition:all 0.3s ease-in-out 0s;opacity:1;
     transform: scale(1);-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);-ms-transform: scale(1);}
@@ -154,6 +156,7 @@ body{font-size:0.28rem;background-color:#f5f5f5;transition: background-color .3s
 .goodWrapper .item{margin-left:0.3rem;padding-right:0.3rem;border-bottom:0.02rem solid #f0f0f0;height:1.8rem;}
 .goodWrapper .item .pictrue{width:1.3rem;height:1.3rem;}
 .goodWrapper .item .pictrue .image{width:100%;height:100%;border-radius:0.06rem;}
+
 .goodWrapper .item .text{width:5.37rem;position:relative;}
 .goodWrapper .item .text .name{font-size:0.28rem;color:#282828;width:4.53rem;}
 .goodWrapper .item .text .num{font-size:0.26rem;color:#868686;}
@@ -182,6 +185,7 @@ body{font-size:0.28rem;background-color:#f5f5f5;transition: background-color .3s
 .address-window .list .item .addressTxt .name .phone{margin-left:0.18rem;}
 .address-window .addressBnt{font-size:0.3rem;font-weight:bold;color:#fff;width:6.9rem;height:0.86rem;border-radius:0.43rem;
     text-align:center;line-height:0.86rem;margin:0.85rem auto;}
+    
 .address-window .pictrue{width:4.14rem;height:3.36rem;margin:0.8rem auto;}
 .address-window .pictrue .image{width:100%;height:100%;}
 /*轮播图*/
